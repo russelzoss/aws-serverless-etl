@@ -1,7 +1,7 @@
 # AWS Serverless ETL
 
 This ETL pipeline takes input in CSV
-format from an S3 bucket and to produce output in JSON format for internal processing, sending it to a queue (SQS).
+format from an S3 bucket and produces output in JSON format for internal processing, sending it to a queue (SQS).
 
 ## Usage
 
