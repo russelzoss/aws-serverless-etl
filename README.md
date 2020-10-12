@@ -44,7 +44,7 @@ record_id|first_name|last_name|client_reference|tax_free_allowance
 * ___portfolios___
 
 record_id|account_number|portfolio_reference|client_reference|agent_code
----|---|---|---|---|---
+---|---|---|---|---
 1|12345678|90755e32-7438-4354-ad37-ad900e297844|9e40659b-8b9f-4fc4-814b-5a7b5a23b64d|EREZBT
 2|12345679|439695b4-508d-4562-8576-670e70024627|f4a0cc2c-d0b4-4f14-b202-c8a5e45e90e7|SFOJFK
 
@@ -68,8 +68,8 @@ ___client message___
 ```json
 {
   "type": "client_message",
-  "client_reference": "ec4e727b-65bf-4d0b-b2cc-34c3f89b8270"
-  "tax_free_allowance": 801
+  "client_reference": "ec4e727b-65bf-4d0b-b2cc-34c3f89b8270",
+  "tax_free_allowance": 801,
   "taxes_paid": 0
 }
 ```
