@@ -1,3 +1,9 @@
+# Zip archives
+*.zip
+
+# Local .vscode directories
+**/.vscode/*
+
 # Local .terraform directories
 **/.terraform/*
 
